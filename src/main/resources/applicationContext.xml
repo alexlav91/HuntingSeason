@@ -19,5 +19,9 @@
           class="org.hunt.season.Gosse">
         <constructor-arg value="Gosse"/>
     </bean>
+    <bean id="hunter"
+          class="org.hunt.season.Hunter">
+        <constructor-arg ref="gosseBean"/>
+    </bean>
 
 </beans>
